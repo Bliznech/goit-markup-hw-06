@@ -10,7 +10,7 @@
 }
 
 /* cSS Portfolio */
-+ :hover {
+:hover {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -53,8 +53,6 @@
   flex-wrap: wrap;
   align-items: center;
   width: 1158px;
-}
-.portfolio-imej:hover {
 }
 
 .portfolio-animation {
@@ -259,8 +257,7 @@ img {
   background-color: #404bbf;
   border-radius: 2px;
 }
-.links-heder:hover {
-}
+
 .links-heder:focus {
   color: var(--logo-text-color);
 }
@@ -649,4 +646,100 @@ h2 {
   height: 8px;
   margin: auto;
   display: block;
+}
+
+/* Modal Insaid */
+.modal-form {
+  margin: 72px 0;
+}
+.text-modal {
+  margin-bottom: 14px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.modal-input {
+  display: inline-block;
+  padding-left: 38px;
+  margin-left: 24px;
+  width: 360px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.svg-modal-input {
+  position: absolute;
+  display: inline-block;
+  top: 14px;
+  left: 43px;
+}
+
+.div-modal-input {
+  position: relative;
+}
+
+.modal-input:focus + .svg-modal-input {
+  fill: #4d5ae5;
+}
+
+.label-name {
+  margin-left: 24px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.coment {
+  margin-left: 24px;
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 120px;
+  resize: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.p-modal-cak {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  color: #757575;
+}
+.cak-box {
+  margin-left: 24px;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.btn-modal {
+  margin-left: 119px;
+  width: 169px;
+  height: 56px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  color: var(--footer-logo-color);
+  font-family: var(--all-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.btn-modal:hover {
+  background: #404bbf;
+}
+.modal-input:focus,
+.coment:focus {
+  border-color: #404bbf;
 }
