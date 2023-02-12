@@ -501,11 +501,9 @@
                 </a>
               </li>
             </ul>
-            <form action="" class="footer-form-clas">
-              <label for="email" id="mail-footer" class="h4-footer"
-                >Subscribe</label
-              >
-              <div class="footer-inlain-position">
+            <div class="footer-inlain-position">
+              <form class="footer-form-clas">
+                <label for="mail-footer" class="h4-footer">Subscribe</label>
                 <input
                   type="email"
                   placeholder="E-mail"
@@ -520,8 +518,8 @@
                     ></use>
                   </svg>
                 </button>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -529,7 +527,7 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <form action="" class="modal-form"></form>
+        <form class="modal-form"></form>
         <h3 class="text-modal">
           Leave your contacts and we will call you back
         </h3>
@@ -569,16 +567,17 @@
           placeholder="Text input"
           name="comment"
           id="comment"
-          cols=""
-          rows=""
         ></textarea>
-        <label for="cak-box" class="cak-box">
-          <input type="checkbox" id="cak-box" />
-          <p class="p-modal-cak">
-            I accept the terms and conditions of the
-            <a href="./portfolio.html" class="color-a-modal">Privacy Policy</a>
-          </p></label
-        >
+
+        <div class="cak-box">
+          <input type="checkbox" id="cak-box" class="" />
+          <label for="cak-box" class="p-modal-cak"
+            >I accept the terms and conditions of the</label
+          >
+
+          <a href="./portfolio.html" class="color-a-modal">Privacy Policy</a>
+        </div>
+
         <button type="submit" class="btn-modal">Send</button>
 
         <button data-modal-close class="buton-modal">

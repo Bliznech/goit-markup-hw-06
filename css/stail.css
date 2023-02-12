@@ -729,8 +729,13 @@ h2 {
 }
 
 .color-a-modal {
+  padding-left: 5px;
   color: #4d5ae5;
   text-decoration: underline;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
 }
 
 .btn-modal {
